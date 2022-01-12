@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="75dp"
+            android:layout_height="73dp"
+            android:layout_marginBottom="26dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:layout_width="70dp"
+            android:id="@+id/btn_notification"
+            android:layout_height="72dp"
+            android:layout_marginLeft="266dp"
+            android:layout_toRightOf="@+id/imageView3"
+            android:background="@drawable/notification" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="190dp"
+            android:layout_toRightOf="@+id/imageView3"
+            android:background="@drawable/trends" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/coffeemorning2"
+            android:id="@+id/image_main"
+            />
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_main"
+            android:layout_marginTop="2dp"
+            android:padding="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/buttons"
+            android:layout_marginRight="10dp"
+            android:weightSum="4">
+
+
+            <Button
+                android:id="@+id/save_to_collection"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/addcollection"
+                android:padding="20dp"
+
+                />
+
+            <Button
+                android:id="@+id/like"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/like"
+                android:padding="20dp"
+
+                />
+
+            <Button
+                android:id="@+id/share"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/share"
+                android:padding="20dp"
+
+                />
+
+            <Button
+                android:id="@+id/comment"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/comment"
+                android:padding="20dp"
+
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_sub"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/buttons"
+            android:src="@drawable/yoga" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_sub"
+            android:layout_marginTop="2dp"
+            android:padding="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            android:weightSum="4">
+
+
+            <Button
+                android:id="@+id/save_to_collection2"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/addcollection"
+                android:padding="20dp"
+
+                />
+
+            <Button
+                android:id="@+id/like2"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/like"
+                android:padding="20dp"
+
+                />
+
+            <Button
+                android:id="@+id/share2"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/share"
+                android:padding="20dp"
+
+                />
+
+            <Button
+                android:id="@+id/comment2"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/comment"
+                android:padding="20dp"
+
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
+

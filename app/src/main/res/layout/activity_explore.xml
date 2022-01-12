@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".screens.ExploreActivity">
+
+
+        <SearchView
+            android:id="@+id/search_view"
+            android:layout_width="384dp"
+            android:layout_height="47dp"
+            android:background="@drawable/search"
+            android:theme="@style/ThemeOverlay.Search"
+            android:queryBackground="@color/black"
+            android:queryHint="search"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.synnapps.carouselview.CarouselView
+            android:id="@+id/carouselView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            app:fillColor="#FFFFFFFF"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/search_view"
+            app:pageColor="#00000000"
+            app:radius="6dp"
+            app:slideInterval="3000"
+            app:strokeColor="#FF777777"
+            app:strokeWidth="1dp" />
+
+        <!--    <LinearLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="80dp"-->
+        <!--        android:layout_marginTop="20dp"-->
+        <!--        android:id="@+id/layout1"-->
+        <!--        android:orientation="horizontal"-->
+        <!--        android:weightSum="3"-->
+        <!--        app:layout_constraintHorizontal_bias="0.0"-->
+        <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--        app:layout_constraintRight_toRightOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/carouselView">-->
+
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imagexplore1"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:layout_height="100dp"-->
+        <!--            android:paddingEnd="5dp"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--            app:layout_constraintRight_toRightOf="parent"-->
+        <!--            app:srcCompat="@drawable/coffeemorning2"-->
+        <!--            tools:layout_editor_absoluteY="86dp" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imagexplore2"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="100dp"-->
+        <!--            android:paddingEnd="5dp"-->
+        <!--            android:layout_weight="1"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--            app:layout_constraintRight_toRightOf="parent"-->
+        <!--            app:srcCompat="@drawable/productivity"-->
+        <!--            tools:layout_editor_absoluteY="86dp" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imagexplore3"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="100dp"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:paddingEnd="5dp"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--            app:layout_constraintRight_toRightOf="parent"-->
+        <!--            app:srcCompat="@drawable/quotes"-->
+        <!--            tools:layout_editor_absoluteY="86dp" />-->
+
+
+
+
+        <!--    </LinearLayout>-->
+
+
+        <!--    <LinearLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="80dp"-->
+        <!--        android:layout_marginTop="10dp"-->
+        <!--        android:orientation="horizontal"-->
+        <!--        android:weightSum="3"-->
+        <!--        android:id="@+id/layout2"-->
+        <!--        app:layout_constraintHorizontal_bias="0.0"-->
+        <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--        app:layout_constraintRight_toRightOf="parent"-->
+        <!--        app:layout_constraintTop_toBottomOf="@+id/layout1">-->
+
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imagexplore4"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="100dp"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:paddingEnd="5dp"-->
+        <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--            app:layout_constraintRight_toRightOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:srcCompat="@drawable/ripped"-->
+        <!--            tools:layout_editor_absoluteY="86dp" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imagexplore5"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="100dp"-->
+        <!--            android:paddingEnd="5dp"-->
+        <!--            android:layout_weight="1"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--            app:layout_constraintRight_toRightOf="parent"-->
+        <!--            app:srcCompat="@drawable/lipcare"-->
+        <!--            tools:layout_editor_absoluteY="86dp" />-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imagexplore6"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="100dp"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:paddingEnd="5dp"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--            app:layout_constraintRight_toRightOf="parent"-->
+        <!--            app:srcCompat="@drawable/recipes"-->
+        <!--            tools:layout_editor_absoluteY="86dp" />-->
+
+        <!--        -->
+        <!--        -->
+
+
+
+        <!--    </LinearLayout>-->
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/repeatlinear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/carouselView"
+            tools:itemCount="4"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:listitem="@layout/linearlayout" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+

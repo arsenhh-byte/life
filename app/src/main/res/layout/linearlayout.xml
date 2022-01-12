@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:id="@+id/layout1"
+       >
+
+
+        <ImageView
+            android:id="@+id/imagexplore1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:paddingEnd="5dp"
+            android:src="@drawable/quotes"
+           />
+
+        <ImageView
+            android:id="@+id/imagexplore2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingEnd="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/lipcare"/>
+
+
+        <ImageView
+            android:id="@+id/imagexplore3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:paddingEnd="5dp"
+             android:src="@drawable/ripped"
+            tools:layout_editor_absoluteY="86dp" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout2"
+        android:weightSum="3"
+        android:id="@+id/layout3"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/imagexplore7"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:paddingEnd="5dp"
+            android:src="@drawable/roundkale"
+            />
+
+        <ImageView
+            android:id="@+id/imagexplore8"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingEnd="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/yoga"
+            />
+
+
+        <ImageView
+            android:id="@+id/imagexplore9"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:paddingEnd="5dp"
+            android:src="@drawable/recipes"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout1"
+        android:weightSum="3"
+        android:id="@+id/layout2"
+        >
+
+
+        <ImageView
+            android:id="@+id/imagexplore4"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:paddingEnd="5dp"
+            android:src="@drawable/coffeemorning2" />
+
+        <ImageView
+            android:id="@+id/imagexplore5"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingEnd="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/coffee"
+            />
+
+
+        <ImageView
+            android:id="@+id/imagexplore6"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:paddingEnd="5dp"
+            android:src="@drawable/skincareroutine"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

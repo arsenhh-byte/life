@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <TextView
+        android:id="@+id/textMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Be on the move "
+        android:textSize="30dp"
+        android:fontFamily="sans-serif"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewHealth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageViewHealth"
+        android:layout_width="384dp"
+        android:layout_height="394dp"
+        android:layout_marginBottom="236dp"
+        android:src="@drawable/exercise2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewHealth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/Fitness"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewHealth"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/imageViewHealth"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewHealth" />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/roundstyle"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:text="Get started"
+            app:layout_constraintStart_toStartOf="@+id/textViewHealth"
+            app:layout_constraintTop_toBottomOf="@+id/textViewHealth"
+            app:layout_constraintEnd_toEndOf="@+id/textViewHealth"
+            android:id="@+id/BtnGetStarted" />
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

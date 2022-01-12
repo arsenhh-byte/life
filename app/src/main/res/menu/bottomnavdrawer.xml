@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+
+        android:id="@+id/nav_home"
+        android:icon="@drawable/homedrawer"
+        android:title="Home "
+        />
+
+    <item
+
+
+        android:id="@+id/nav_recce"
+        android:icon="@drawable/reccedrawer"
+        android:title="Recci"
+        />
+
+
+    <item
+
+
+        android:id="@+id/nav_inbox"
+        android:icon="@drawable/inboxactivity"
+        android:title="Messages"
+        />
+
+    <item
+
+
+        android:id="@+id/nav_track"
+        android:icon="@drawable/trackactivity"
+        android:title="Track"
+        />
+
+    <item
+
+
+        android:id="@+id/nav_emergency"
+        android:icon="@drawable/emergencydrawer"
+        android:title="Emergency"
+        />
+
+
+
+</menu>

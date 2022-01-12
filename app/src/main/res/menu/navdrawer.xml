@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+<group android:id="@+id/usernav">
+
+    <item
+
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile"
+        android:iconTint="@null"
+
+        />
+    <item
+
+        android:id="@+id/nav_activity"
+        android:title="Activity"
+        android:icon="@drawable/activity"
+        android:iconTint="@null"
+
+        />
+
+
+    <item
+
+        android:id="@+id/nav_favorites"
+        android:title="Favorites"
+        android:icon="@drawable/favorites"
+        android:iconTint="@null"
+
+        />
+
+    <item
+
+        android:id="@+id/nav_collection"
+        android:title="Collection"
+        android:icon="@drawable/collection"
+        android:iconTint="@null"
+
+        />
+
+
+    <item
+
+        android:id="@+id/nav_completedgoals"
+        android:title="Completed Goals"
+        android:icon="@drawable/complete"
+        android:iconTint="@null"
+
+        />
+
+
+
+    <item
+
+        android:id="@+id/nav_rewards"
+        android:title="Careers and Monetization"
+        android:icon="@drawable/monetization"
+        android:iconTint="@null"
+
+        />
+    <item
+
+        android:id="@+id/nav_form"
+        android:title="Premium"
+        android:icon="@drawable/premuim"
+        android:iconTint="@null"
+
+        />
+
+</group>
+
+
+    <group>
+
+        <item
+
+            android:id="@+id/nav_settings"
+            android:title="Settings and privacy"
+            android:icon="@drawable/help"
+            android:iconTint="@null"
+
+            />
+        <item
+
+            android:id="@+id/nav_help"
+            android:title="Help center and FAQS"
+            android:icon="@drawable/premuim"
+            android:iconTint="@null"
+
+            />
+
+    </group>
+
+
+
+</menu>
+

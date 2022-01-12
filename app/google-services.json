@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "806654302039",
+    "project_id": "life-e977e",
+    "storage_bucket": "life-e977e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806654302039:android:cd45799b32ec93b4a4d012",
+        "android_client_info": {
+          "package_name": "com.example.life"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806654302039-rum3rtl2g6l7g3u7vqp73adbpv4f62cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl-ICpA3VXZ5VIwcOkl3UWJgWUtDcBu2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806654302039-rum3rtl2g6l7g3u7vqp73adbpv4f62cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
